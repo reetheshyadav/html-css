@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Technical Documentation</title>
+    <link rel="stylesheet" href="styles.css"
+    </head>
+    <body>
+      <nav id="navbar">
+        <header> Python Documentation</header>
+        <ul id="ul-navbar">
+          <li>
+            <a class="nav-link" href="#introduction">Introduction</a>
+            </li>
+             <li>
+            <a class="nav-link" href="#history">History</a>
+            </li>
+             <li>
+            <a class="nav-link" href="#programming_examples">Programming examples</a>
+            </li>
+             <li>
+            <a class="nav-link" href="#Libraries">Libraries</a>
+            </li>
+             <li>
+            <a class="nav-link" href="#uses">uses</a>
+            </li>
+             <li>
+            <a class="nav-link" href="#Languages_influenced_by_python">Languages influenced by python</a>
+            </li>
+            <li>
+            <a class="nav-link" href="#reference">Reference</a>
+            </li>
+          </ul>
+      </nav>
+      <main id="main-doc">
+      <section class="main-section" id="introduction">
+        <header>Introduction</header>
+        <p>Python is a high-level, general-purpose programming language. Its design philosophy emphasizes code readability with the use of significant indentation.</p>
+<p>Python is dynamically typed and garbage-collected. It supports multiple programming paradigms, including structured (particularly procedural), object-oriented and functional programming.</p> 
+<p>It is often described as a "batteries included" language due to its comprehensive standard library.</p>
+<p>Guido van Rossum began working on Python in the late 1980s as a successor to the ABC programming language and first released it in 1991 as Python 0.9.0. Python 2.0 was released in 2000. Python 3.0, released in 2008, was a major revision not completely backward-compatible with earlier versions. Python 2.7.18, released in 2020, was the last release of Python 2.</p>
+<p>Python consistently ranks as one of the most popular programming languages.</p>
+  <ul>
+    <li> Simple is better than complex.</li>
+    <li>Complex is better than complicated. </li>
+          </ul>
+      </section>
+    <section id="history" class="main-section">
+      <header>History</header>
+      <p>Python was conceived in the late 1980s by Guido van Rossum at Centrum Wiskunde & Informatica (CWI) in the Netherlands as a successor to the ABC programming language, which was inspired by SETL, capable of exception handling and interfacing with the Amoeba operating system.Its implementation began in December 1989. Van Rossum shouldered sole responsibility for the project, as the lead developer, until 12 July 2018, when he announced his "permanent vacation" from his responsibilities as Python's "benevolent dictator for life", a title the Python community bestowed upon him to reflect his long-term commitment as the project's chief decision-maker. In January 2019, active Python core developers elected a five-member Steering Council to lead the project.</p>
+      <p>Since 27 June 2023, Python 3.8 is the oldest supported version of Python (albeit in the 'security support' phase), due to Python 3.7 reaching end-of-life</p>
+      </section>
+         </section>
+    <section id="programming_examples" class="main-section">
+      <header>Programming Examples</header>
+      <p>Hello world program:</p>
+<code>print('Hello, world!')</code>
+<p>Program to calculate the factorial of a positive integer:</p>
+<code>n = int(input('Type a number, and its factorial will be printed: '))<br/></code>
+
+<code>if n < 0:<br/>
+    raise ValueError('You must enter a non-negative integer')<br/></code>
+
+<code>factorial = 1<br/></code>
+<code>for i in range(2, n + 1):</br></code>
+    factorial *= i<br/>
+
+<code>print(factorial)</code>
+      </section>
+      <section id="Libraries" class="main-section">
+      <header>Libraries</header>
+      <ul>
+      <li>Python's large standard library provides tools suited to many tasks and is commonly cited as one of its greatest strengths. For Internet-facing applications, many standard formats and protocols such as MIME and HTTP are supported. It includes modules for creating graphical user interfaces, connecting to relational databases, generating pseudorandom numbers, arithmetic with arbitrary-precision decimals, manipulating regular expressions, and unit testing.</li>
+
+<li>Some parts of the standard library are covered by specifications—for example, the Web Server Gateway Interface (WSGI) implementation wsgiref follows PEP 333—but most are specified by their code, internal documentation, and test suites. However, because most of the standard library is cross-platform Python code, only a few modules need altering or rewriting for variant implementations.</li>
+</ul>
+      </section>
+      <section id="uses" class="main-section">
+      <header>Uses</header>
+      <ul>
+      <li>Python can serve as a scripting language for web applications, e.g., via mod_wsgi for the Apache webserver. With Web Server Gateway Interface, a standard API has evolved to facilitate these applications. Web frameworks like Django, Pylons, Pyramid, TurboGears, web2py, Tornado, Flask, Bottle, and Zope support developers in the design and maintenance of complex applications. Pyjs and IronPython can be used to develop the client-side of Ajax-based applications. SQLAlchemy can be used as a data mapper to a relational database. Twisted is a framework to program communications between computers, and is used (for example) by Dropbox.</li>
+      <p>Python is commonly used in artificial intelligence projects and machine learning projects with the help of libraries like TensorFlow, Keras, Pytorch, and scikit-learn.</p><li> As a scripting language with a modular architecture, simple syntax, and rich text processing tools, Python is often used for natural language processing.</li>
+      <li>Python is used extensively in the information security industry, including in exploit development</li></ul>
+      </section>
+      <section id="Languages_influenced_by_python" class="main-section">
+      <header>Languages influenced by python</header>
+      <p>Python's design and philosophy have influenced many other programming languages:</p>
+<ul>
+  <li>Boo uses indentation, a similar syntax, and a similar object model.</li>
+<li>Cobra uses indentation and a similar syntax, and its Acknowledgements document lists Python first among languages that influenced it.</li>
+<li>CoffeeScript, a programming language that cross-compiles to JavaScript, has Python-inspired syntax.</li>
+<li>Go is designed for the "speed of working in a dynamic language like Python" and shares the same syntax for slicing arrays.</li>
+<li>Groovy was motivated by the desire to bring the Python design philosophy to Java.</li>
+</ul>
+</section>
+ <section id="reference" class="main-section">
+      <header>Reference</header>
+      <ul><li>
+        All the documentation in this page is taken from <a href="https://en.wikipedia.org/wiki/Python_(programming_language)">WIKIPEDIA.</a></li></ul>
+        </section>
+      </main>
+      </body>
+  </html>
